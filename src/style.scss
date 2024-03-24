@@ -1,0 +1,35 @@
+@import "normalize.css";
+@import 'v-calendar/dist/style.css';
+$textColor: #1E1E1E;
+$transparentGrey: rgba(77, 72, 92, 0.16);
+$orange: #FF7E00;
+$purple: #3C218C;
+
+@font-face {
+    font-family: "Golos Text Regular";
+    src: url('/font/GolosText-Regular.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Golos Text Bold";
+    src: url('/font/GolosText-Bold.ttf') format('truetype');
+}
+@font-face {
+    font-family: "Golos Text SemiBold";
+    src: url('/font/GolosText-SemiBold.ttf') format('truetype');
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: "Golos Text Regular", serif;
+    color: $textColor;
+}
+
+.purple {
+    background-color: $purple;
+}
+.orange {
+    background-color: $orange;
+}
+
