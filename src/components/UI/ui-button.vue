@@ -15,6 +15,7 @@ const {onClick, color} = defineProps<Props>();
 <style lang="scss" scoped>
 @import "../../style";
 button {
+  cursor: pointer;
   color: white;
   padding: 6px 14px;
   border-radius: 4px;

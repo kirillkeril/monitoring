@@ -5,7 +5,7 @@ import {onMounted, Ref, ref} from "vue";
 interface Props {
   placeholder?: string;
   type?: string;
-  disabled: boolean;
+  disabled?: boolean;
 }
 
 const props = withDefaults(defineProps<Props>(), {  });
